@@ -1,0 +1,897 @@
+*{
+    margin: 0;
+    padding: 0;
+
+}
+.nav-bar{
+    padding-top: -18px;
+    height: 352px;
+    width: 100%;
+    background: #003580;
+
+}
+.header1{
+   
+    display: flex;
+    background: #003580;
+    width: 100%;
+    height: 60px;
+}
+.header1 h1{
+    font-family: BlinkMacSystemFont,-apple-system,Segoe UI,Roboto,Helvetica,Arial,sans-serif;
+    margin-top: 20px;
+    color: white;
+    padding-left: 200px;
+    padding-right: 400px;
+}
+#text{
+    padding-left: 2px;
+    padding-top: 2px;
+  margin-left: 10px;
+    background: white;
+    margin-top: 28px;   
+
+    width: 80px;
+    height: 36px;
+    
+}
+#inr{
+    margin-top:  29px;
+    padding-right: 20px;
+    padding-top: 10px;
+    color: white;
+    font-size:16px;
+    font-family: BlinkMacSystemFont,-apple-system,Segoe UI,Roboto,Helvetica,Arial,sans-serif;
+}
+#img-align{
+ padding-right: 50px;
+width: 30px;
+height: 30px;
+padding-top: 26px;
+}
+.header2{
+background-color: #003580;
+
+    margin-left: 225px;
+    padding-top: 28px;
+    font-size: 14px;
+    font-family: BlinkMacSystemFont,-apple-system,Segoe UI,Roboto,Helvetica,Arial,sans-serif;
+    border-radius: 10px;
+    
+}
+.header2 button{
+    border: none;
+    padding-left: 31px;
+    margin-left: 20px;
+    background: #003580;
+    color: white;
+    padding-right: 20px;
+    border-radius: 20px;
+    width: 105px;
+    height: 54px;
+    
+    
+    
+}
+.nav-list{
+    display: flex;
+
+    list-style-type: none;
+}
+
+.stay{
+    border-color:white;
+    border-width: 2px;
+    width: 37px;
+    height: 41px;
+    margin-left: 23px;
+    position: absolute;
+    margin-top: -2px;
+}
+.flight{
+    position: absolute;
+    width: 37px;
+    height: 41px;
+    margin-left: 128px;
+    margin-top: 6px;
+}
+.hotels{
+    position: absolute;
+    width: 31px;
+    height: 38px;
+    margin-left: 260px;
+    margin-top: 6px;
+
+}
+.car{
+    position: absolute;
+    width: 31px;
+    height: 38px;
+    margin-left:  396px;
+    margin-top: 3px;
+
+}
+.atr{
+    position: absolute;
+    width: 31px;
+    height: 29px;
+    margin-left: 510px;
+    margin-top: 10px;   
+}
+.airport{
+    position: absolute;
+    width: 36px;
+    height: 40px;
+    margin-left: 644px;
+    margin-top: 5px;
+
+}
+.header3{
+    color: white;
+    padding-left: 200px;
+    padding-top: 20px;
+    font-size: 27px;
+    font-family: Avenir Next,BlinkMacSystemFont,-apple-system,Segoe UI,Roboto,Helvetica,Arial,sans-serif;
+}
+.image-position{
+  height: 10px;
+  width: 10px;
+}
+.section1{
+    margin-left: 200px;
+    height: 300px;
+    width:1121px;
+    background:white;
+    float: left;
+    margin-top: -37px;
+    border-radius: 6px;
+}
+.booking{
+    background: rgb(228, 180, 24);
+    height: 51px;
+    width: 1121px;
+    border-width: 2px;
+    padding-top: 20px;
+    margin-top: 0px;
+    border-radius: 6px;
+}
+.column1{
+    height:63px;
+    width: 400px;
+    background: white;
+    margin-top:-16px;
+    margin-left: 3px;
+    border-radius: 2px;
+}
+#where{
+    height: 34px;
+    width: 33px;
+    margin-left: 10px;
+    position: absolute;
+    margin-top: 10px;
+    
+}
+.column1 h4{
+    font-size: 16px;
+    margin-left: 60px;
+    padding-top: 20px;
+    font: icon;
+}
+.column2{
+    height:63px;
+    width: 272px;
+    background: white;
+    margin-left: 407px;
+    margin-top: -62px;
+
+    border-radius: 2px;
+
+}
+.calendar{
+    height: 34px;
+    width: 33px;
+    margin-top: 14px;
+    position: absolute;
+    margin-left: 10px;
+
+
+}
+.h{
+    font: icon;
+    margin-top: 20px;
+    position:absolute;
+    margin-left: 64px;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+.column3{
+    height:61px;
+    width: 302px;
+    background:white;
+    margin-left: 682px;
+    margin-top:  -62px;
+    border-radius: 2px;
+}
+.female{
+    width: 41px;
+    height: 41px;
+    position:absolute;
+    margin-top: 10px;
+    margin-left: 10px;
+
+}
+.child{
+    font: icon;
+    margin-top: 17px;
+    position: absolute;
+    margin-left: 64px;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+
+}
+.search1{
+    margin-top: 17px;
+    color: white;
+    position: absolute;
+    margin-left: 32px;
+    font-family: inherit;
+   
+
+}
+
+.search{
+  
+    background:white;
+    height:61px;
+    width: 129px;
+    margin-left: 988px;
+    margin-top: -61px;
+    border-radius: 2px;
+    background-color: #0071c2;
+
+}
+
+.checkbox input{
+    background:black;
+    height: 50px;
+    width: 24px;
+    margin-top: 19px;
+    border-radius: 2px;
+    height: 22px;
+    margin-left: -233px;
+}
+.checkbox h3{
+    color: black;
+    margin-top: -25px;
+    font-size: 15px;
+    margin-left:32px;
+    font: icon;
+    font-family: BlinkMacSystemFont,-apple-system,Segoe UI,Roboto,Helvetica,Arial,sans-serif;;
+}
+.icon1{
+    height: 30px;
+    width: 30px;
+    margin-left: 10px;
+    margin-top: 10px;
+
+}
+.icon2{
+    height: 30px;
+    width: 30px;
+    margin-left: 10px;
+    margin-top: 10px;
+
+}
+.tab1{
+    background:white;
+    width: 1117px;
+    height: 75px;
+    margin-top: 36px;
+    
+    border: groove;
+}
+#tab2{
+    background:white;
+    height: 60px;
+    width: 1121px;
+    margin-top: 20px;
+    border: groove;
+
+}
+.tab1 h5{
+    color: black;
+    margin-left: 91px;
+    font-size: medium;
+    margin-top:-39px;
+    font: icon;
+    font-family: BlinkMacSystemFont,-apple-system,Segoe UI,Roboto,Helvetica,Arial,sans-serif;;
+
+}
+#link{
+    
+    margin-left: 670px;
+    margin-top:  -19px;
+    position: absolute;
+}
+#tab2 h5{
+    font-size: medium;
+    margin-top: -35px;
+    font: icon;
+    margin-left: 100px;
+   font-family:  BlinkMacSystemFont,-apple-system,Segoe UI,Roboto,Helvetica,Arial,sans-serif;;
+}
+#link2{
+    margin-left: 324px;
+    position: absolute;
+    margin-top: -20px;
+}
+.section2{
+    margin-left:200px;
+    margin-top: 319px;
+    background:white;
+    height: 620px;
+    width: 1121px;
+    
+
+}
+.section2 h3{
+    font-family: BlinkMacSystemFont,-apple-system,Segoe UI,Roboto,Helvetica,Arial,sans-serif;;
+
+    
+}
+.section2 h5{
+    font-family: BlinkMacSystemFont,-apple-system,Segoe UI,Roboto,Helvetica,Arial,sans-serif;;
+    font: icon;
+    margin-top: 7px;
+}
+.img1{
+    background:white;
+    height:230px;
+    width: 170px;
+    margin-top: 14px;
+    
+}
+#image{
+    width: 170px;
+     height: 170px;
+
+}
+#place{
+    font-family: BlinkMacSystemFont,-apple-system,Segoe UI,Roboto,Helvetica,Arial,sans-serif;;
+    color: rgb(12, 9, 9);
+    position: relative;
+    top: 10px;
+
+}
+#count{
+    font: icon;
+    position: relative;
+    top: 8px;
+    font-family: BlinkMacSystemFont,-apple-system,Segoe UI,Roboto,Helvetica,Arial,sans-serif;;
+}
+
+.img2{
+    background:white;
+    height:230px;
+    width: 170px;
+    margin-left: 189px;
+    margin-top: -230px;
+
+}
+.img3{
+    height:230px;
+    width: 170px;
+    background: white;
+    margin-left:379px;
+    margin-top: -230px;
+}
+.img4{
+    height: 230px;
+    width: 170px;
+    background:white;
+    margin-left: 572px;
+    margin-top: -230px;
+}
+.img5{
+    height:230px;
+    width: 170px;
+    background:white;
+    margin-left: 765px;
+    margin-top: -230px;
+}
+.img6{
+    height:230px;
+    width: 170px;
+    background:white;
+    margin-left: 950px;
+    margin-top: -230px;
+}
+#property{
+    font-family: BlinkMacSystemFont,-apple-system,Segoe UI,Roboto,Helvetica,Arial,sans-serif;;
+    margin-top: 26px;
+}
+.pic1{
+    height:230px;
+    width: 170px;
+    background:white;
+    margin-top:  14px;
+
+}
+#image2{
+    width: 170px;
+    height: 170px;
+}
+#place1{
+    font-family: BlinkMacSystemFont,-apple-system,Segoe UI,Roboto,Helvetica,Arial,sans-serif;;
+    color: black;
+    position: relative;
+    top: 3px;
+}
+#number{
+    font: icon;
+    top: 3px;
+    position: relative;
+    font-family: BlinkMacSystemFont,-apple-system,Segoe UI,Roboto,Helvetica,Arial,sans-serif;;
+
+}
+.pic2{
+    height:230px;
+    width: 170px;
+    background:white;
+   margin-top: -231px;
+   margin-left: 189px;
+
+}
+.pic3{
+    height:230px;
+    width: 170px;
+    background:white;
+    margin-top: -231px;
+    margin-left:379px;
+
+}
+.pic4{
+    height:230px;
+    width: 170px;
+    background: white;
+    margin-top: -231px;
+    margin-left: 572px;
+
+}
+.pic5{
+    height:230px;
+    width: 170px;
+    background: white;
+    margin-top: -231px;
+    margin-left: 765px;
+
+}
+.pic6{
+    height:230px;
+    width: 170px;
+    background: white;
+    margin-top: -231px;
+    margin-left: 950px;
+   
+
+}
+.section3{
+    background:white;
+    height: 135px;
+    width: 1121px;
+    margin-left: 200px;
+    margin-top: 40px;
+    border: groove;
+   
+}
+.signup-img{
+    background:white;
+    width:  150px;
+    height: 113px;
+    margin-top: 5px;
+    
+}
+#subcription{
+    font-family: BlinkMacSystemFont,-apple-system,Segoe UI,Roboto,Helvetica,Arial,sans-serif;;
+    margin-left: 200px;
+    margin-top: -100px; 
+}
+#price{
+    font-family: BlinkMacSystemFont,-apple-system,Segoe UI,Roboto,Helvetica,Arial,sans-serif;;
+    margin-left: 200px;
+    margin-top: 11px; 
+    font: icon;
+}
+#email{
+    width: 467px;
+    height: 33px;
+    background: white;
+    margin-left: 200px;
+    border-radius: 3px;
+    margin-top: 5px;
+    border-block-start-color: blue;
+}
+#signup{
+    background: white;
+    height: 35px;
+    width: 96px;
+    margin-top: 10px; 
+    color: blue;
+    border-block-start-color: blue;
+}
+.Kannur{
+    background:white;
+    height: 350px;
+    width:  549px;
+    margin-top: 35px;
+    margin-left: 200px;
+
+}
+.kannur1{
+    height: 350px;
+    width: 549px;
+
+}
+.Kottayam{
+    height: 350px;
+    width: 565px;
+    background: white;
+    margin-top:  -350px;
+    margin-left: 762px;
+
+}
+.kottayam1{
+    height: 350px;
+    width: 565px;
+}
+.trichur{
+    background:white;
+    height: 300px;
+    width: 380px;
+    margin-left: 200px;
+    margin-top: 23px;
+    
+}
+.thekkadi{
+    background:white;
+    height: 300px;
+    width: 380px;
+    margin-top: -299px;
+    margin-left: 585px;
+
+}
+.kollam{
+    background: white;
+    height: 300px;
+    width: 357px;
+    margin-left: 971px;
+    margin-top: -298px;   
+}
+#dist{
+    margin-top: -348px;
+    font-family: BlinkMacSystemFont,-apple-system,Segoe UI,Roboto,Helvetica,Arial,sans-serif;;
+}
+#dist1{
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    margin-top: -302px;
+}
+.thrichure{
+    height: 300px;
+    width: 380px;
+
+}
+.thekkadi1{
+    height: 300px;
+    width: 380px;
+
+}
+.kollam1{
+    height: 300px;
+    width: 360px;
+
+}
+#properties{
+    font: icon;
+    font-family: BlinkMacSystemFont,-apple-system,Segoe UI,Roboto,Helvetica,Arial,sans-serif;;
+}
+.trip{
+    font-family: BlinkMacSystemFont,-apple-system,Segoe UI,Roboto,Helvetica,Arial,sans-serif;;
+    margin-left: 200px;
+    margin-top: 30px;
+}
+.trip1{
+    background: yellow;
+    height: 227px;
+    width: 550px;
+    margin-left: 200px;
+    margin-top: 23px;
+    
+}
+.los{
+    height: 227px;
+    width: 550px;
+}
+.los1{
+    
+    margin-top: -66px;
+    color: white;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+.los2{
+    color: white;
+    margin-top:  -10px;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+.trip2{
+    background: blueviolet;
+    height: 227px;
+    width: 562px;
+    margin-top:  -226px;
+    margin-left: 765px;
+}
+.dest{
+    height: 227px;
+    width: 562px;
+}
+.section4{
+    width:1127px;
+    height: 247px;
+    margin-left: 200px;
+    margin-top: 57px;
+    background: black;
+}
+#discover{
+    width:1127px;
+    height: 247px;
+    margin-left:0px;
+     margin-top: 0px;
+}
+#dest{
+    font-family: BlinkMacSystemFont,-apple-system,Segoe UI,Roboto,Helvetica,Arial,sans-serif;;
+    margin-top: 33px;
+    margin-left: 200px;
+}
+#btn1{
+    margin-left:200px;
+    margin-top: 20px;
+    width: 85px;
+    height: 46px;
+    border-radius: 23px;
+    color: blue;
+    background: rgb(219, 240, 248);
+}
+#btn2{
+    margin-left:22px;
+    margin-top: 20px;
+    width: 85px;
+    height: 46px;
+    border-radius: 23px;
+    background: white;
+    border: none;
+}
+#btn3{
+    margin-left:12px;
+    margin-top: 20px;
+    width: 166px;
+    height: 46px;
+    border-radius: 23px;
+    background: white;
+    border: none;
+
+}
+.sec-5{
+    height: 50px;
+    width: 100%;
+    margin-top: 30px;
+}
+
+.list{
+    margin-left: 200px;
+    font-style:normal;
+}
+.section5{
+    height: 291px;
+    width: 100%;
+    background:white;
+}
+.list2{
+    height: 229px;
+    width: 209px;
+    background:white;
+    margin-top: 35px;
+    margin-left:203px;  
+    list-style-type: none;
+}
+
+.list3{
+    height: 229px;
+    width: 209px;
+    background:white;
+    margin-top: -229px;
+    margin-left: 492px; 
+    
+}
+
+.list4{
+    height: 229px;
+    width: 209px;
+    background:white;
+    margin-top: -228px;
+    margin-left: 799px;;  
+}
+
+.list5{
+    height: 229px;
+    width: 209px;
+    background:white;
+    margin-top: -228px;
+    margin-left: 1120px;  
+}
+#list1{
+    list-style-type: none;
+    font-weight: 500!important;
+    font-family: BlinkMacSystemFont,-apple-system,Segoe UI,Roboto,Helvetica,Arial,sans-serif;; 
+    line-height: 20px;
+
+}
+.aaa{
+    margin-top: 10px;
+    padding-top: 10px;
+    position: absolute;
+}
+#property{
+    font-size: 13px;
+    line-height: 16px;
+    margin-top: 10px;
+    
+}
+.sec-5-body{
+    padding: 13px;
+}
+
+
+
+.section-last{
+    display: flex;
+    background: #003580;
+    width: 100%;
+    height:324px;
+    margin-top: 108px;
+}
+.container1{
+    width: 100%;
+    height: 261px;
+    background:#00224f;
+}
+.money{
+    color: white;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font: icon;
+    margin-left: 584px;
+    margin-top: 44px;
+}
+.money2{
+    color: white;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font: icon;
+    margin-left: 537px;
+    margin-top:-23px;
+   
+}
+.mony{
+    margin-left:583px;
+    margin-top: 44px;
+    color: white;
+
+
+}
+.tx{
+    height: 49px;
+    width:  393px;
+    margin-left: 502px;
+    margin-top:18px;
+    border-radius: 3px;
+}
+.sear{
+    height: 51px;
+    width: 125px;
+    position: absolute;
+    border-radius: 5px;
+    margin-left: 4px;
+    background: white;
+    margin-top: 20px;
+}
+#check{
+    width: 26px;
+    height: 18px;
+    margin-left:  501px;
+    margin-top: 10px;
+}
+.btn-btn{
+    height: 20px;
+    width: 30px;
+    color: white;
+    margin-left: 400px;
+    margin-top: 50px;
+}
+.foot{
+    height: 50px;
+    width: 100%;
+    margin-top: 10px;
+}
+.textbox{
+    height: 30px;
+    width: 30px;
+    background:white;
+}
+.footer{
+    width: 100%;
+    height:  299px;
+    background:white;
+    display: flex;
+}
+.section-6{
+    background-color:#003580;
+    height: 53px;
+    width: 100%;
+    top: 23px;
+    position: relative;
+}
+.sec-6-body{
+    padding: 5px;
+    text-decoration: underline;
+    color: white;
+    font-family: arial;
+
+}
+.sec-6-body:hover{
+    cursor: pointer;
+}
+.sec-6-main{
+    width: 1049px;
+    position: relative;
+    left: 238px;
+    top: 19px;
+}
+.foot-body{
+    margin-left: 135px;
+    line-height: 32px;
+    color: #0071c2;
+}
+.foot-div-1{
+    display: flex;
+    width: fit-content;
+    position: relative;
+    left: 118px;
+    margin-top: 25px;
+}
+.para{
+    margin-top: 10px;
+    margin-left: 712px;
+    color: #0071c2;
+    line-height: 20px;
+    font-family: BlinkMacSystemFont,-apple-system,Segoe UI,Roboto,Helvetica,Arial,sans-serif;
+}
+.copy{
+    margin-left: -885px;
+    top: 21px;
+    position: relative;
+    font-weight: 400;
+    line-height: 20px;
+    text-align: center;
+    font-size: 12px;
+}
+.copy1{
+   
+    top: 46px;
+    position: relative;
+    text-align: center;
+    font-size: 12px;
+    
+}
+.last{
+    height: 60px;
+    width: 1325px ;  
+    margin-top: 28px;
+    margin-left: 127px;
+
+}

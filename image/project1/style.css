@@ -1,0 +1,190 @@
+*{
+    margin: 0;
+    padding: 0;
+
+}
+.nav-bar{
+    padding-top: -18px;
+    height: 352px;
+    width: 100%;
+    background: #003580;
+
+}
+.header1{
+   
+display: flex;
+background: #003580;
+
+
+    width: 100%;
+    height: 60px;
+}
+.header1 h1{
+    font-family: BlinkMacSystemFont,-apple-system,Segoe UI,Roboto,Helvetica,Arial,sans-serif;
+
+    color: white;
+    padding-left: 200px;
+    padding-right: 400px;
+}
+#text{
+    padding-left: 2px;
+    padding-top: 2px;
+  margin-left: 10px;
+    background: white;
+
+    width: 80px;
+    height: 36px;
+    
+}
+#inr{
+    padding-right: 20px;
+    padding-top: 10px;
+    color: white;
+    font-size:16px;
+    font-family: BlinkMacSystemFont,-apple-system,Segoe UI,Roboto,Helvetica,Arial,sans-serif;
+}
+#img-align{
+ padding-right: 50px;
+width: 30px;
+height: 30px;
+padding-top: 8px;
+}
+.header2{
+background-color: #003580;
+
+    margin-left: 225px;
+    padding-top: 28px;
+    font-size: 14px;
+    font-family: BlinkMacSystemFont,-apple-system,Segoe UI,Roboto,Helvetica,Arial,sans-serif;
+    border-radius: 10px;
+    
+}
+.header2 button{
+    border: none;
+    padding-left: 31px;
+    margin-left: 20px;
+    background: #003580;
+    color: white;
+    padding-right: 20px;
+    border-radius: 20px;
+    width: 105px;
+    height: 54px;
+    
+    
+    
+}
+.nav-list{
+    display: flex;
+
+    list-style-type: none;
+}
+
+#car{
+    border-color:white;
+    border-width: 2px;
+}
+.header3{
+    color: white;
+    padding-left: 200px;
+    padding-top: 20px;
+    font-size: 27px;
+    font-family: Avenir Next,BlinkMacSystemFont,-apple-system,Segoe UI,Roboto,Helvetica,Arial,sans-serif;
+}
+.image-position{
+  height: 10px;
+  width: 10px;
+}
+.section1{
+    margin-left: 200px;
+    height: 300px;
+    width:1121px;
+    background:white;
+    float: left;
+    margin-top: -37px;
+    border-radius: 6px;
+}
+.booking{
+    background: rgb(228, 180, 24);
+    height: 51px;
+    width: 1121px;
+    border-width: 2px;
+    padding-top: 20px;
+    margin-top: 0px;
+    border-radius: 6px;
+}
+.column1{
+    height:63px;
+    width: 400px;
+    background: white;
+    margin-top:-16px;
+    margin-left: 3px;
+    border-radius: 2px;
+}
+.column1 h4{
+    font-size: 16px;
+    margin-left: 60px;
+    padding-top: 20px;
+}
+.column2{
+    height:63px;
+    width: 272px;
+    background: white;
+    margin-left: 407px;
+    margin-top: -62px;
+
+    border-radius: 2px;
+
+}
+.column3{
+    height:61px;
+    width: 302px;
+    background:white;
+    margin-left: 682px;
+    margin-top:  -62px;
+    border-radius: 2px;
+}
+.search{
+  
+    background:white;
+    height:61px;
+    width: 129px;
+    margin-left: 988px;
+    margin-top: -61px;
+    border-radius: 2px;
+
+}
+.checkbox{
+    background: white;
+}
+.checkbox input{
+    background: white;
+    height: 50px;
+    width: 24px;
+    margin-top: 19px;
+    border-radius: 2px;
+    height: 22px;
+    margin-left: -233px;
+}
+.checkbox h3{
+    color: black;
+    margin-top: -25px;
+    font-size: 15px;
+    margin-left:32px;
+    font-family: BlinkMacSystemFont,-apple-system,Segoe UI,Roboto,Helvetica,Arial,sans-serif;;
+}
+.tab1{
+    background:white;
+    width: 1117px;
+    height: 75px;
+    margin-top: 36px;
+    
+    border: groove;
+}
+#tab2{
+    background:white;
+    height: 60px;
+    width: 1121px;
+    margin-top: 20px;
+    border: groove;
+
+}
